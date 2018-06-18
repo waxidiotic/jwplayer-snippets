@@ -1,0 +1,30 @@
+{
+	"Declaration": {
+		"scope": "javascript,typescript",
+		"prefix": "jwdeclare",
+		"body": [
+			"const ${1:playerInstance} = jwplayer('${2:myElement}');"
+		],
+		"description": "Assign JW instance to friendly variable"
+	},
+	"Setup": {
+		"scope": "javascript,typescript",
+		"prefix": "jwsetup",
+		"body": [
+			"${1:playerInstance}.setup({",
+			"  $2",
+			"});"
+		],
+		"description": "Initial setup method for JW Player"
+	},
+	"Event Listener": {
+		"scope": "javascript,typescript",
+		"prefix": "jwevent",
+		"body": [
+			"${1:playerInstance}.on('$2', (evt) => {",
+			"  console.log(evt);",
+			"});"
+		],
+		"description": "Add a listener to a JW Player event"
+	}
+}
