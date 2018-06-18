@@ -1,6 +1,6 @@
 {
     "name": "jwplayer-snippets",
-    "displayName": "jwplayer-snippets",
+    "displayName": "JW Player Snippets",
     "description": "A collection of JW Player-related snippets for Visual Studio Code",
     "version": "0.0.1",
     "publisher": "waxidiotic",
