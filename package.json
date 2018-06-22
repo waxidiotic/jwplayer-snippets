@@ -4,6 +4,10 @@
     "description": "A collection of JW Player-related snippets for Visual Studio Code",
     "version": "0.0.1",
     "publisher": "waxidiotic",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/waxidiotic/jwplayer-snippets.git"
+    },
     "engines": {
         "vscode": "^1.24.0"
     },
