@@ -2,7 +2,7 @@
     "name": "jwplayer-snippets",
     "displayName": "JW Player Snippets",
     "description": "A collection of JW Player-related snippets for Visual Studio Code",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "publisher": "waxidiotic",
     "repository": {
         "type": "git",
